@@ -1,6 +1,6 @@
-# React sample project
+# React sample project with React Router
 
-> Simple react project for beginner.
+> Simple react project for beginner with routing.
 
 ## Install
 
@@ -10,16 +10,22 @@
 $ npm install -g babel
 ```
 
+> Install Webpack Globally to your system
+
+```sh
+$ npm install -g webpack
+```
+
 > Then Run this command
 
 ```sh
 $ npm install
 ```
 
-## Convert JSX into JS
+## Create Build
 
 > Command
 
 ```sh
-$ babel --presets es2015,react --watch scripts/jsx --out-dir scripts/js
+$ webpack
 ```
